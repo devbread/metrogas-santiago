@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ //clearfix
+
+ .clearfix {
+ 	clear: both;
+ }
+
+.imgblock {
+	display: block;
+}
+
+body {
+	font-family: 'montserratblack';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+	font-family: 'montserratblack';
+	font-size: 2em;
+}
+
+.contenido {
+	width: 960px;
+	height: 356px;
+	margin: 0 auto;
+}
+.header {
+	width: 960px;
+	height: 356px;
+	background:url(../img/01.jpg) no-repeat;
+	.caja {
+		padding: 30px 55px;
+	}
+}
+
+
+

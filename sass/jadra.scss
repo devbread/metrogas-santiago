@@ -1,0 +1,384 @@
+.container{
+	padding-right:0 !important;
+	padding-left:0 !important;
+}
+a.tab-fixed{
+	position:fixed;
+	width:250px;
+	height:40px;
+	margin: 200px 0 0 815px;
+	padding: 15px 25px;
+	border-radius:10px 10px 0 0;
+	background-color:$color-naranjo;
+	transform:rotate(-90deg);
+	/* Rectangle 18: */
+	box-shadow: 0 2px 33px 0 rgba(74,73,74,0.60);
+	z-index:90;
+	color:$blanco;
+	font-size:13px;
+	text-transform:uppercase;
+	text-decoration:none;
+	cursor:pointer;
+
+}
+.antetitulo{
+	font-family:'montserratblack',sans-serif;
+	color:$color-antetitulo;
+	font-size:14px;
+	border-bottom: 1px solid $color-antetitulo;
+	margin: 0 0 40px 0;
+	padding-bottom:10px;
+}
+.antetitulo-foto{
+	font-family:'montserratblack',sans-serif;
+	color:$blanco;
+	font-size:14px;
+	border-bottom: 1px solid $blanco;
+	margin: 15px 0 30px 0;
+	padding-bottom:10px;
+}
+
+.metroplanes,.nubes,.metroambientalistas,.bggray,.quienes,.metroplan,.header,.concept,.video,.mapa,.video-left,.bloque-seguridad,.contacto,.contenido-metroplanes,.tarifas,.pagos{
+	.texto-primario{
+		font-family:'montserratlight',sans-serif;
+		color:$color-texto-parrafos;
+		margin-bottom:22px;
+		font-size: 14px;
+		line-height: 17px;
+		span{
+			color:$color-texto-parrafos;
+			font-family:'montserratbold',sans-serif;
+		}
+	}
+	.texto-primario-blanco{
+		font-family:'montserratlight',sans-serif;
+		color:$blanco;
+		margin-bottom:25px;
+		font-size: 14px;
+		line-height: 17px;
+		span{
+			font-family:'montserratbold',sans-serif !important;
+		}
+	}
+	.texto-seguridad{
+		font-family:'montserratlight',sans-serif;
+		color:$blanco;
+		margin-bottom:25px;
+		font-size: 15px;
+		line-height: 17px;
+	}
+	.titulo-fondo-verde{
+		font-family:'montserratbold',sans-serif;
+		color:#fff;
+		padding:10px 10px;
+		background-color: $color-verde-claro;
+		font-size: 20px;
+		display: inline;
+	}
+	.titulo-fondo-cyan{
+		font-family:'montserratbold',sans-serif;
+		color:#fff;
+		padding:13px 10px;
+		margin:12px 0 35px 0;
+		display: inline-block;
+		font-size: 20px;
+		background-color: $color-celeste;
+	}
+	.texto-legal{
+		font-family:'montserratlight',sans-serif;
+		color:$color-texto-parrafos;
+		font-size: 9px;
+		background-color:#F9F9F9;
+		padding:40px;
+		margin-top: 60px;
+	}
+	.subtitulo-uno,.texto-prevolante{
+		font-family:'montserratbold',sans-serif;
+		font-size: 25px;
+		color:$color-texto-titulos;
+		text-align:center;
+		margin: 20px 0 0 0;
+	}
+	.texto-prevolante{
+		color: $color-texto-parrafos;
+		margin: 75px 0 40px 0;
+	}
+
+	/* botones */
+	.btn-primario{
+		background: #BDD44D;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.21);
+		border-radius: 5px;
+		padding:15px 35px;
+		color:$blanco;
+		display: block;
+		width: 100%;
+		font-family: 'Roboto',sans-serif;
+		font-weight: 800;
+		text-align: center;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	input[type="submit"].btn-enviar{
+		background: none;
+   		border: 0;
+    	color: inherit;
+		background: #BDD44D;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.21);
+		border-radius: 5px;
+		padding:5px 35px;
+		color:$blanco;
+		font-family: 'Roboto',sans-serif;
+		font-weight: 800;
+	}
+	.caja-tabla{
+		text-align: center;
+		.table{
+			text-align: center;
+			background-color:$color-footer;
+			tr{
+				
+				th{
+					vertical-align: middle;
+					font-size:12px;
+					text-align: center;
+					border-top:0;
+					padding:18px 5px;
+					border-right:1px solid #A1BB26;
+					&:last-child{
+						border-right:0;
+					}
+				}
+				th.primero{
+					border-radius:10px 0 0 0;
+				}
+				th.ultimo{
+					border-radius: 0 10px 0 0 ;
+				}
+				td{
+					font-size: 14px;
+					font-family: 'Montserrat', sans-serif;
+					border-top:1px solid $azul-oscuro;
+					border-right:1px solid $azul-oscuro;
+					&:last-child{
+						border-right:0;
+					}
+				}
+			}
+
+		}
+		.volante{
+			img{
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.21);
+				margin-bottom: 25px;
+			}
+		}
+	}
+	.nopadding{
+		padding-left:0 !important;
+		padding-right:0 !important;
+
+	}
+}
+/* videos */
+.video,.video-left{
+	margin:50px auto;
+}
+/*header*/
+.header{
+	.caja{
+		padding: 15px 55px 0px 55px;
+		.titulo-fondo-verde{
+			font-size: 28px;
+		}
+		.titulo-fondo-cyan{
+			font-size: 28px;
+		}
+	}
+}
+
+/* seguridad */
+.bloque-seguridad{
+	.block-seguridad{
+		background:#3669A3 url(../img/bg-nubes.png);
+		padding:55px;
+		position:relative;
+		img{
+			width: 100%;
+			position:absolute;
+			top:-55px;
+			left:40px;
+		}
+	}
+	.fondo-seguridad{
+		background-color:red;
+	}
+}
+/* tarifas */
+.tarifas{
+	padding:55px 0 0 0;
+	.caja-tablas{
+		border:2px solid $color-verde;
+		padding: 20px; 
+		text-align: center;
+		.table{
+			color:$blanco;
+			border-radius:10px;
+			text-align: center;
+			background-color:$color-footer;
+			th{
+				background-color:$color-verde;
+				vertical-align: middle;
+				font-size:12px;
+				text-align: center;
+				border-top:0;
+				padding:18px 5px;
+				border-right:1px solid #A1BB26;
+				&:last-child{
+					border-right:0;
+				}
+			}
+			th.primero{
+				border-radius:10px 10px 0 0;
+			}
+			th.ultimo{
+				border-radius: 0 10px 0 0 ;
+			}
+			td{
+				font-size: 14px;
+				font-family: 'Montserrat', sans-serif;
+				border-top:1px solid $azul-oscuro;
+				border-right:1px solid $azul-oscuro;
+				&:last-child{
+					border-right:0;
+				}
+			}
+		}
+	}
+}
+/* concept */
+.concept-foto{
+	margin:50px 0;
+}
+.section-texto{
+	.antetitulo{
+			margin: 80px 0 30px 0;
+	}
+	.sector{
+		margin-top:50px !important;
+	}
+}
+/* video-left */
+.video-left{
+	vertical-align:bottom;
+	.video-left-texto-center{
+		padding:10px 45px 5px 31px;
+	}
+	img{
+		margin-bottom: -3px;
+	}
+}
+.mapa{
+	.mapa-caja{
+		background-color:#F9F9F9;
+		padding:55px 55px 15px 55px;
+		/* .texto-primario{
+			color:$color-texto-titulos;
+			font-size: 15px;
+			font-family:'montserratbold',sans-serif;
+			span{
+				color:$color-verde;
+			}
+		} */
+	}
+}
+
+.nubes{
+	color:$blanco;
+	font-family:'Montserrat';
+	font-size:13px;
+	.beneBox p{
+		font-size: 14px;
+	}
+}
+.metroplanes{
+	margin-bottom:60px;
+}
+.contenido-metroplanes{
+	.metroplanes-cuadro{
+		padding:55px;
+
+	}
+	.data-metroplan{
+		padding:0 15px;
+	}
+	.tabla-metroplanes{
+		color: #fff;
+	}
+}
+.content-two{
+	.subtitulo-uno{
+		margin: 50px 0;
+	}
+}
+/*tarifas*/
+.tarifas{
+	.caja-tarifas{
+		padding:0 55px;
+		.texto-legal{
+			font-family:'montserratlight',sans-serif;
+			color:$color-texto-parrafos;
+			font-size: 9px;
+			margin-top: 30px;
+			background:none;
+			padding:0;
+			margin-bottom: 80px;
+		}
+	}
+
+}
+/*contacto*/
+.contacto{
+	.caja-contacto{
+		background:url(../img/contacto-bg.jpg) top center no-repeat;
+		padding:50px 55px 80px 55px;
+		.contenedor-form{
+			padding: 45px 60px;
+			background-color:$color-celeste;
+			height: 480px;
+			width: 650px;
+			margin:20px auto;
+			text-align: center;
+			/* Rectangle: */
+			background: rgba(54,105,163,0.70);
+			box-shadow: 0 2px 27px 0 rgba(0,0,0,0.24);
+			border-radius: 10px;
+			input{
+				width: 100%;
+				margin:10px 0;
+				padding:15px;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 11px;
+				border-radius:5px;
+				border:0;
+				&[type="submit"]{
+					width: 215px;
+					text-align: center;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+/*pagos*/
+.pagos{
+	.caja-pagos{
+		padding:0 55px;
+	}
+	
+}
+/* Metroambientalistas */
+.metroambientalistas{
+	padding:35px 55px !important; 
+}

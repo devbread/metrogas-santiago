@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Khand:400,600,700|Roboto:400,700,700i,900|Source+Sans+Pro:400,600,700');
+
+//estilos generales
+
+//color
+$color-azul-caja:	#305D91;
+$color-verde:		#BDD44D;
+$color-celeste:		#46A1DB;
+$color-azul:		#3E79BD;
+$color-footer:		#3669A3;
+$color-rosa:		#FF6193;
+$color-mora:		#9468BA;
+$color-verde-claro:	#BDD44D;
+$color-naranjo:		#F6A623;
+$blanco:			#ffffff;
+$line:				#23456B;
+$azul-oscuro:		#2F5C8F;
+
+$color-antetitulo:			#cecece;
+$color-texto-titulos: 		#3669A3;
+$color-texto-parrafos: 		#9B9B9B;
+
+$bg-gray:				#EBEBEB;
+
+
+  @import "sass/fonts";
+  @import "sass/reset";
+  @import "sass/menu";
+  @import "sass/header";
+  @import "sass/footer";
+  @import "sass/main";
+  @import "sass/jadra";
+  @import "sass/charls";
+
+
